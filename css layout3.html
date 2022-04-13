@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                display:grid;
+                grid-template-areas: "c1 c2 c3"
+                                      "r1 r2 r3";
+                grid-template-columns: 10 20 30;
+                grid-template-rows: 30 60;
+                grid-row-gap: 10;
+                grid-column-gap: 10;
+            }
+            content,aside,footer{
+                padding: 1.2em;
+                background: red;
+            }
+            #pagecontent
+            {
+                grid-area: content;
+            }
+            #pageaside
+            {
+                grid-area: div;
+            }
+            #pagefooter
+            {
+                grid-area: footer;
+            }
+        </style>
+    </head>
+    <body>
+<content id="pagecontent">fhffdghdfvcjvfbvjh
+    hfdjghdfghfdghghdfjghdh
+    hgfdjdjfghfkjghtvvbcnvbnnvb
+</content>
+<div id="pageaside">wygfbmkkjkjhjdkvhbhs
+    bvbvfhbbnnkjhfdgfdshalldf
+    fhkbjbn,jkhjfkghkjhsdfjkg
+</div>
+<footer id="pagefooter">erugeirgruvhiuhuhggue   ferugeruigeuigeg    guyfguchjbccvvuyfgurg</footer>
+    </body>
+</html>

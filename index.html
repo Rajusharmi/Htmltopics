@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>mypage</title>
+
+
+
+<style>
+    .container {  
+        display: grid;
+        
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 3fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  background-color: aqua;
+
+  grid-template-areas:
+    ". ."
+    ". ."
+    ". . .";
+}
+
+ .ad {
+     display: grid;
+     grid-template-rows: 1fr 2fr;
+     grid-template-columns: 1fr 2fr;
+     grid-template-areas: 
+     ". ."
+     ". .";
+ }
+  
+   #ad1{
+    grid-area: ad;
+          
+   }
+
+.header, .footer{
+             padding: 1.2em;
+             background: gold;
+  }
+</style> 
+
+
+
+
+</head>
+<body>
+    <div class="header">
+        bodyyyyy
+    </div>
+    
+    <div class="container">
+        <div class="ad">AD</div>
+        
+        
+        
+        <div class="row">bodyyyyy , asas</div>
+      <div class="row">bodyyyyy , asas</div>
+      <div class="row">bodyyyyy , asas</div>
+      <div class="row">bodyyyyy , asas</div>
+      <div class="row">bodyyyyy , asas</div>
+      
+    
+    </div>
+    
+  
+  
+    <div class="footer">
+        bodyyyyy
+    </div>
+
+
+
+</body>
+</html>

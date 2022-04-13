@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Menu Bar</title>
+        <style>
+            body{
+                background-image:url(./images/trees.jpg);
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+            ul li {
+                text-decoration: none;
+                color:red ;
+              
+            }
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            ul{
+                list-style-type:none;
+            }
+
+            ul li{
+                float: left;
+                width: 200px;
+                height: 40px;
+                line-height: 40px;
+                background-color: blueviolet;
+                text-align: center;
+                font-size: 22px;
+                border-radius: 20px;
+                opacity: 0.9;
+            }
+            ul li ul {
+                display: none;
+            }
+            ul li:hover>ul{
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Courses
+            <ul>
+                <li>Ms Office</li>
+                <li>Web Development</li>
+                <li>Tally</li>
+                </li>
+            </ul>
+            <li>Careers</li>
+            <li>Contact Us</li>
+        </ul>
+    </body>
+</html>

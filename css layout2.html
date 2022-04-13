@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body
+            {
+                display:grid;
+                grid-template-areas: 
+                "header header"
+                "nav footer ads";
+                grid-template-columns: 30px 40px 20px;
+                height: 50;
+                margin: 10;
+                grid-row-gap: 10;
+                grid-column-gap: 10;
+            }
+            header ,nav ,article, footer{
+             padding: 1.2em;
+             background: gold;
+            }
+            #pageheader {
+                grid-area: header;
+            }
+            #pagefilter {
+                grid-area: filter;
+            }
+            #pagenav {
+                grid-area: nav;
+            }
+            #pagefooter {
+                grid-area: footer;
+            }
+            #pageads {
+                grid-area: ads;
+            }
+        </style>
+    </head>
+    <body>
+        <header id="pageheader">header</header>
+        <filter id="pagefilter">filter</filter>
+        <nav id="pagenav">nav</nav>
+        <footer id="pagefooter">footer</footer>
+        <ads id="pageads">ads</ads>
+        
+    </body>
+</html>
